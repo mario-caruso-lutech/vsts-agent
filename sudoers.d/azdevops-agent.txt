@@ -1,0 +1,4 @@
+azdevops-agent ALL=(ALL) NOPASSWD: /bin/systemctl start vsts-agent.service
+azdevops-agent ALL=(ALL) NOPASSWD: /bin/systemctl stop vsts-agent.service
+azdevops-agent ALL=(ALL) NOPASSWD: /bin/systemctl status vsts-agent.service
+azdevops-agent ALL=(ALL) NOPASSWD: /bin/mv gitversion /usr/local/bin/
